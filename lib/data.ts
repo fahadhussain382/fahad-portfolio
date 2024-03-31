@@ -2,10 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-
-import FYPImg from "@/public/fyp.png";
-import Food_AffairsImg from "@/public/food_affairs.png";
-import SentimentImg from "@/public/sentiment.png";
+import FYP from "@/public/FYP.jpg";
+import Food_Affairs from "@/public/Food_Affairs.jpg";
+import Sentiment from "@/public/Sentiment.jpg";
 
 export const links = [
   {
@@ -60,7 +59,7 @@ export const projectsData = [
       "Introducing our cutting-edge React Native Pharmacy Locator app! Seamlessly combining GPS"+
       " technology, our app finds nearby pharmacies based on your medication search.",
     tags: ["React Native", "Firebase", "MongoDB", "Node.js"],
-    imageUrl: FYPImg,
+    imageUrl: FYP,
   },
   {
     title: "Food Affairs",
@@ -68,7 +67,7 @@ export const projectsData = [
       "Experience seamless event management with our website. Effortlessly create events and facilitate"+
       " participant registration through intuitive interfaces.",
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    imageUrl: Food_AffairsImg,
+    imageUrl: Food_Affairs,
   },
   {
     title: "Sentimental Analysis",
@@ -76,7 +75,7 @@ export const projectsData = [
       "Sentiment analysis project utilizes machine learning techniques to analyze and classify text data." +
       " Through natural language processing, we discern sentiments such as positive, negative.",
     tags: ["Python", "Django", "SQLite3"],
-    imageUrl: SentimentImg,
+    imageUrl: Sentiment,
   },
 ] as const;
 
